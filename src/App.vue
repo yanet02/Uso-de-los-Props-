@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import recorrido from './components/recorrido.vue'
+import Listas from './components/Listas.vue'
 import Horario from './components/Horario.vue'
 import Horarioo from './components/Horarioo.vue'
 </script>
@@ -8,8 +9,9 @@ import Horarioo from './components/Horarioo.vue'
 <template>
   <!-- <Horario />  -->
   <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <Listas /> 
    <!-- <recorrido/> -->
-    <Horarioo /> 
+    <!-- <Horarioo />  -->
 </template>
 
 <style scoped></style>

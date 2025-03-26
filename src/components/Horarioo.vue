@@ -6,7 +6,7 @@
           <table class="table table-bordered table-striped text-center shadow-sm">
             <thead class="bg-dark text-white">
               <tr>
-                <th scope="col" class="bg-danger text-dark" style="width: 150px;">Hora</th> <!-- Aumenté el ancho de la columna Hora -->
+                <th scope="col" class="bg-danger text-dark" style="width: 150px;">Hora</th> 
                 <th scope="col" class="bg-primary text-dark">Lunes</th>
                 <th scope="col" class="bg-info text-dark">Martes</th>
                 <th scope="col" class="bg-success text-dark">Miércoles</th>
@@ -16,7 +16,7 @@
             </thead>
             <tbody>
               <tr v-for="(h, index) in horario" :key="index">
-                <td class="table-danger fw-bold text-dark" style="min-width: 150px;">{{ h.hora }}</td> <!-- Aumenté el ancho de la celda Hora -->
+                <td class="table-danger fw-bold text-dark" style="min-width: 150px;">{{ h.hora }}</td> 
                 <td v-html="h.lunes" class="table-primary text-dark"></td>
                 <td v-html="h.martes" class="table-info text-dark"></td>
                 <td v-html="h.miercoles" class="table-success text-dark"></td>
