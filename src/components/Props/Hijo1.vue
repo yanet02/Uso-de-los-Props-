@@ -2,14 +2,16 @@
 import { ref } from 'vue'
 
 defineProps({
-  nombre: String,
+  edad: String,
 })
 
 </script>
 
 <template>
+  <h6>Soy el componente hijo 1</h6>
+  <p>{{ edad }}</p>
   
-  <h1>{{ nombre }}</h1>
+
 </template>
 
 <style scoped></style>
